@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Istok+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstblock{
+    width: 1900px;
+    height: 1200px;
+    background-image:url(/i\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.header{
+    width: 1900px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.links{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 40px;
+    left: 80px;
+    margin-left: 20px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0.72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;        
+    display: flex;
+    align-items: center;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  position: relative;
+  left: 150px;
+}
+.profile{
+    margin-left: auto;
+}
+.kazahstan{
+    height: 305px;
+    width: 740px;
+    position: relative;
+    border: 6px white solid;
+    bottom: 700px;
+    left: 620px;
+}
+.per{
+    color: white;
+    font-size: 41px;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+}  
+.vto{
+    color: white;
+    font-size: 41px;
+    font-family: Inter;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 45px;
+}
+.line{
+    display: flex;
+    gap: 62px;
+    position: relative;
+    bottom: 25px;
+    left: 102px;
+}
+.tri{
+    color: white;
+    font-size: 60px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 900;
+    position:relative;
+    left: 190px; 
+}
+.secondblock {
+    background-image: url(i\ 2.png);
+    width: 1900px;
+    height: 1000px; ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    bottom: 350px;
+}
+.text2 {
+    color: #2EE1D6;
+    font-size: 45px;
+    font-family: Inter;
+    font-style: italic;
+    text-align: center;
+    height: 52px;
+    position: relative;
+    width: 1900px;
+    height: 300px;
+}
+.triblock{
+    
+}
+.Pblock{
+    position: relative;
+    top: 160px;
+}
+.Oblock{
+    position: relative;
+    top: 160px;
+
+}
+.Iblock{
+    position: relative;
+    top: 160px;
+}
+.under{
+    background: #E08900;
+    border: none;
+    position: relative;
+    left: 679px; 
+    top: 230px; 
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    box-shadow: -5px -5px 9px #FFBC40 inset;
+    border-radius: 30px
+}
+.buttex{
+    color: white;
+    font-size: 35px;
+    font-family: Josefin Sans;
+    font-style: italic;
+}
+.video{
+    width: 1900px;
+    height: 1000px;
+    position:relative;
+    bottom: 350px;
+    right: 150px;
+}
+.vidxz{
+    width: 2000px;
+    height: 1000px;
+}
+.fotter{
+    width: 1900px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 350px;
+    background: rgba(39.31, 35.55, 35.55, 0.79)
+}
+.prava{
+    color: white;
+    font-size: 20px;
+    font-family: Istok Web;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    position: relative;
+    top: 40px;
+}
+.uslugi{
+    text-shadow: 1px 1px black;
+    position: relative;
+    top: 0px;
+}
+.utex{
+    color: white;
+    font-size: 20px;
+    font-family: Istok Web;
+    position: relative;
+    top: 40px;
+}
+.texu{
+    color: white;
+    font-size: 18px;
+    font-family: Istok Web;
+    position: relative;
+    top: 40px;
+}
+.texttri{
+    color: #CDCDCD;
+    font-size: 35px;
+    font-family: Inter;
+    font-style: italic;
+    text-shadow: 1px 1px black;
+    position: relative;
+    bottom: 140px;
+    left: 10px;
+}
+.company{
+    color: white;
+    font-size: 20px;
+    font-family: Istok Web;
+    text-shadow: 1px 1px black;
+    position: relative;
+    top: 40px;
+}
+.gid{
+    color: white;
+    font-size: 20px;
+    font-family: Istok Web;
+    text-shadow: 1px 1px black;
+    position: relative;
+    top: 0px;
+}
+.numbers{
+    color: white;
+    font-size: 18px;
+    font-family: Istok Web;
+    position: relative;
+    top: 40px;
+}
+.number{
+    position: relative;
+    top: 40px;
+}
+.texte{
+    color: white;
+    font-size: 18px;
+    font-family: Istok Web;
+}
+.email{
+    position: relative;
+    top: 80px;
+}
+.ios{
+    position: relative;
+    top: 100px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.play{
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
